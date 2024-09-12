@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
         return "Credenciais incorretas";
       }
     } else {
-      return "User não encontrado";
+      return "Endereço não encontrado";
     }
   };
 
