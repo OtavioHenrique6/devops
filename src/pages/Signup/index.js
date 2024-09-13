@@ -19,7 +19,7 @@ const Signup = () => {
       setError("Preencha todos os campos !! ");
       return;
     } else if (email !== emailConf) {
-      setError("Os e-mails não são iguais");
+      setError("Os e-mails não são iguais !!");
       return;
     }
 
