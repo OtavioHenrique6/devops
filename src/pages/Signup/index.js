@@ -16,7 +16,7 @@ const Signup = () => {
 
   const handleSignup = () => {
     if (!email | !emailConf | !senha) {
-      setError("Preencha todos os campos");
+      setError("Preencha todos os campos !");
       return;
     } else if (email !== emailConf) {
       setError("Os e-mails não são iguais");
