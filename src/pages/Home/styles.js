@@ -8,4 +8,4 @@ export const Container = styled.div`
   gap: 20px;
 `;
 
-export const Title = styled.h3``;
+export const Title = styled.h4``;
